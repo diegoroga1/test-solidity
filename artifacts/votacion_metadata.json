@@ -11,6 +11,19 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "Ganador",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -29,6 +42,64 @@
 					}
 				],
 				"name": "Representar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "VerCandidatos",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "VerResultados",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_candidato",
+						"type": "string"
+					}
+				],
+				"name": "VerVotos",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_candidato",
+						"type": "string"
+					}
+				],
+				"name": "Votar",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -75,10 +146,10 @@
 	},
 	"sources": {
 		"votaciones.sol": {
-			"keccak256": "0x8a645b6994365bf37da86833cd35194640ed83cff44bca549f8ae92a4d6c892a",
+			"keccak256": "0x71e6732a07f2d7e4292c85693f1836e9c086c1d779e36abb931e3d1c31055f09",
 			"urls": [
-				"bzz-raw://aa40c743ae91200367bf7a0ac415e6f293b3a86d693e86e490785edbe972e54b",
-				"dweb:/ipfs/QmZKtHmVt1fysCXWCX4dQKr59QDmKktsgDd8sp4JjogjGM"
+				"bzz-raw://ab24e0e1e5ae454c270d9bc47ff689089f5f8042d65bb0d3eab24871bad0367d",
+				"dweb:/ipfs/QmVnPy2kHUcD5nNArXdajsmnVjoiSv2JyXZQ3WthNrXj1k"
 			]
 		}
 	},
