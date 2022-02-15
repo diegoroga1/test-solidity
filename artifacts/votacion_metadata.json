@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombrePersona",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_edadPersona",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_idPersona",
+						"type": "string"
+					}
+				],
+				"name": "Representar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"votaciones.sol": "votacion"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"votaciones.sol": {
+			"keccak256": "0x8a645b6994365bf37da86833cd35194640ed83cff44bca549f8ae92a4d6c892a",
+			"urls": [
+				"bzz-raw://aa40c743ae91200367bf7a0ac415e6f293b3a86d693e86e490785edbe972e54b",
+				"dweb:/ipfs/QmZKtHmVt1fysCXWCX4dQKr59QDmKktsgDd8sp4JjogjGM"
+			]
+		}
+	},
+	"version": 1
+}
