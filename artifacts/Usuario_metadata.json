@@ -1,0 +1,159 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "BlockCoinbase",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "BlockDifficulty",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "BlockNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MsgSender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Now",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_cadena",
+						"type": "string"
+					}
+				],
+				"name": "calcularHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_cadena",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_k",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_direccion",
+						"type": "address"
+					}
+				],
+				"name": "calcularHash2",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "Usuario"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x7ca09a4072680756b4bd8e03739a36ccaef67d1860e61815c5a97d5c16407f1d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0f3522c39e1528e5522deeb069b497e78f6605417b36e1e3c084fb893f2f9135",
+				"dweb:/ipfs/QmeC4cbVHmkLXgeBEnUceuB7xGDsV3BYSgY3X1Eh2d2L3u"
+			]
+		}
+	},
+	"version": 1
+}

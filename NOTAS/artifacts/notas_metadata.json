@@ -1,0 +1,153 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "alumno_evaluado",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "evento_revision",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_idAlumno",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nota",
+						"type": "uint256"
+					}
+				],
+				"name": "Evaluar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_idAlumno",
+						"type": "string"
+					}
+				],
+				"name": "Revision",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_idAlumno",
+						"type": "string"
+					}
+				],
+				"name": "VerNotas",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "VerRevisiones",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "profesorDir",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NOTAS/notas.sol": "notas"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NOTAS/notas.sol": {
+			"keccak256": "0x0abb51c4d1f057b0343057cc3c11bafd2a19e9938a69def8217ee79bf4e16ad3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bab7c132c07d329a04470172987ef162e2cd6336d88007a957d55843007ac0ce",
+				"dweb:/ipfs/QmTwLqjrT5yvSn43jebqEeMTdaxe3nTVRCdh4VHGhARezS"
+			]
+		}
+	},
+	"version": 1
+}
